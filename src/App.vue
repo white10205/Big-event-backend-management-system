@@ -4,6 +4,8 @@ const userStore = useUserStore()
 </script>
 
 <template>
+  <router-view></router-view>
+
   <div>我是App</div>
   <div>{{ userStore.token }}</div>
   <el-button type="primary" @click="userStore.setToken('Bearerasdasd')"
