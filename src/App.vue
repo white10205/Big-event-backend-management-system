@@ -1,17 +1,7 @@
-<script setup>
-import { useUserStore } from '@/stores/modules/user'
-const userStore = useUserStore()
-</script>
+<script setup></script>
 
 <template>
   <router-view></router-view>
-
-  <div>我是App</div>
-  <div>{{ userStore.token }}</div>
-  <el-button type="primary" @click="userStore.setToken('Bearerasdasd')"
-    >Primary</el-button
-  >
-  <el-button type="primary" @click="userStore.removeToken()">Primary</el-button>
 </template>
 
 <style scoped></style>

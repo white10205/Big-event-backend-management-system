@@ -1,35 +1,47 @@
-# Vue3-big-event-admin
+# 项目介绍
 
-This template should help get you started developing with Vue 3 in Vite.
+本项目基于Vue3+ElementPlus+Router搭建后台管理系统前端页面，使用Node+Express+Mysql搭建后端接口。本项目具有登录、注册、添加或更新文章分类、添加或更新文章、修改个人头像、更换密码、更换用户昵称等功能。在开发过程中使用eslint提高代码规范，prettier提高代码美观程度
 
-## Recommended IDE Setup
+# 技术栈
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1.Vue3
 
-## Customize configuration
+2.ElmentPlus
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+3.Vue-Router
 
-## Project Setup
+4.husky
+
+5.eslint
+
+6.node（express框架）
+
+7.Mysql
+
+# 项目安装
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+## 项目启动
 
 ```sh
 pnpm dev
 ```
 
-### Compile and Minify for Production
+## 项目打包
 
 ```sh
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+# 项目预览
 
-```sh
-pnpm lint
-```
+![!\[登录页\](image.png)](src/assets/image.png)
+---
+
+![!\[首页\](image.png)](src/assets/image2.png)
+---
+
+![!\[alt text\](image.png)](src/assets/image3.png)
