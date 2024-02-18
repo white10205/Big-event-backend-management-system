@@ -2,6 +2,9 @@
 
 本项目基于Vue3+ElementPlus+Router搭建后台管理系统前端页面，使用Node+Express+Mysql搭建后端接口。本项目具有登录、注册、添加或更新文章分类、添加或更新文章、修改个人头像、更换密码、更换用户昵称等功能。在开发过程中使用eslint提高代码规范，prettier提高代码美观程度
 
+# 后端项目地址
+https://github.com/white10205/-Backend-management-system-interface
+
 # 技术栈
 
 1.Vue3
@@ -45,3 +48,4 @@ pnpm build
 ---
 
 ![!\[alt text\](image.png)](src/assets/image3.png)
+
